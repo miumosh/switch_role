@@ -1,0 +1,39 @@
+[
+  {
+    "source_profile": "default",
+    "region": "asia-northeast1",
+    "service": "test01",
+    "env": "stg01",
+    "permission": "ReadOnly01",
+    "role_arn": "arn:aws:iam::xxx:role/SwitchRoleReadOnly",
+    "role_session_name": "xxx"
+  },
+  {
+    "source_profile": "default",
+    "region": "asia-northeast1",
+    "service": "test01",
+    "env": "production01",
+    "permission": "ReadOnly01",
+    "role_arn": "arn:aws:iam::xxx:role/SwitchRoleReadOnly",
+    "role_session_name": "xxx"
+  },
+  {
+    "source_profile": "default",
+    "region": "asia-northeast1",
+    "service": "test02",
+    "env": "stg02",
+    "permission": "ReadOnly02",
+    "role_arn": "arn:aws:iam::02",
+    "role_session_name": "xxx"
+  },
+  {
+    "source_profile": "default",
+    "region": "asia-northeast1",
+    "service": "test03",
+    "env": "stg03",
+    "permission": "ReadOnly03",
+    "role_arn": "arn:aws:iam::03",
+    "role_session_name": "xxx"
+  }
+]
+

@@ -1,0 +1,40 @@
+{
+  "source_profile": "default",
+  "region": "asia-northeast1",
+  "iam_user": "xxx",
+  "role_session_name": "xxx",
+  "serial_number": [
+    "serial01",
+    "serial02"
+  ],
+  "service": [
+    {
+      "id": "svc1-1 stg",
+      "role_arn": [
+        "role_arn1-1-1/readonly",
+        "role_arn1-1-2/administrator"
+      ]
+    },
+    {
+      "id": "svc1-2 prd",
+      "role_arn": [
+        "role_arn1-2-1/readonly",
+        "role_arn1-2-2/administrator"
+      ]
+    },
+    {
+      "id": "svc2-1 stg",
+      "role_arn": [
+        "role_arn2-1-1/readonly",
+        "role_arn2-1-2/administrator"
+      ]
+    },
+    {
+      "id": "svc2-2 prd",
+      "role_arn": [
+        "role_arn2-2-1/readonly",
+        "role_arn2-2-2/administrator"
+      ]
+    }    
+  ]
+}
